@@ -123,8 +123,8 @@
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
     <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic" Version="4.6.0" />
-    <PackageReference Include="System.CodeDom" Version="7.0.0" />
-    <PackageReference Include="System.IO.Packaging" Version="7.0.0" />
+    <PackageReference Include="System.CodeDom" Version="4.7.0" />
+    <PackageReference Include="System.IO.Packaging" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
     <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic" Version="4.6.0" />
@@ -138,8 +138,8 @@
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
     <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic" Version="4.6.0" />
-    <PackageReference Include="System.CodeDom" Version="7.0.0" />
-    <PackageReference Include="System.IO.Packaging" Version="7.0.0" />
+    <PackageReference Include="System.CodeDom" Version="4.7.0" />
+    <PackageReference Include="System.IO.Packaging" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Microsoft.ReportViewer.DataVisualization\Microsoft.ReportViewer.DataVisualization.csproj" />

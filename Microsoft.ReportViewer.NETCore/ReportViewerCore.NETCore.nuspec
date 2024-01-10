@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>ReportViewerCore.NETCore</id>
-    <version>15.1.17</version>
+    <version>15.1.18</version>
     <authors>Microsoft, lkosson</authors>
     <owners>Microsoft, lkosson</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -37,7 +37,7 @@
         <dependency id="System.Windows.Extensions" version="4.7.0" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NET7.0">
-        <dependency id="Microsoft.CodeAnalysis.VisualBasic" version="4.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.VisualBasic" version="4.4.0" exclude="Build,Analyzers" />
         <dependency id="System.CodeDom" version="4.7.0" exclude="Build,Analyzers" />
         <dependency id="System.IO.Packaging" version="4.7.0" exclude="Build,Analyzers" />
         <dependency id="System.Drawing.Common" version="4.7.2" exclude="Build,Analyzers" />
@@ -59,6 +59,10 @@
      <file src="bin\Release\net6.0\Microsoft.ReportViewer.Common.dll" target="lib\net6.0"></file>
      <file src="bin\Release\net6.0\Microsoft.ReportViewer.DataVisualization.dll" target="lib\net6.0"></file>
      <file src="bin\Release\net6.0\Microsoft.ReportViewer.ProcessingObjectModel.dll" target="lib\net6.0"></file>
+     <file src="bin\Release\net7.0\Microsoft.ReportViewer.NETCore.dll" target="lib\net7.0"></file>
+     <file src="bin\Release\net7.0\Microsoft.ReportViewer.Common.dll" target="lib\net7.0"></file>
+     <file src="bin\Release\net7.0\Microsoft.ReportViewer.DataVisualization.dll" target="lib\net7.0"></file>
+     <file src="bin\Release\net7.0\Microsoft.ReportViewer.ProcessingObjectModel.dll" target="lib\net7.0"></file>
      <file src="..\icon.png" target="images\"></file>
   </files>
 </package>
